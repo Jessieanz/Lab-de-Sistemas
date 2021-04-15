@@ -20,7 +20,7 @@ begin
     if PE='0' then
     aux<=P;
     elsif PE='1' then
-      if CEP='0' ANDCET='0' AND UD='1') then
+      if CEP='0' AND CET='0' AND UD='1') then
         aux <= std_logic_vector(unsigned(aux) + unsigned(count));
           if(aux = "1111") then
             TC <= '0';
